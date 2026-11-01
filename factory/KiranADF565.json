@@ -1,0 +1,21 @@
+{
+	"name": "KiranADF565",
+	"properties": {
+		"globalParameters": {
+			"Email_Recepient": {
+				"type": "string",
+				"value": "avulapatikirankumar39@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac3f65e2-64fa-4a93-b988-683f99ee7001",
+		"tenantId": "8a47faa2-b094-4648-bc95-7aebfab8ec6d"
+	}
+}
