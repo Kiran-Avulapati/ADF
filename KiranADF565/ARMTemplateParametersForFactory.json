@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "KiranADF565"
+		},
+		"SQLDatabase_linkedservice_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://adfadls.dfs.core.windows.net/"
+		},
+		"SQLDatabase_linkedservice_properties_typeProperties_server": {
+			"value": "sql-server-for-retail-data.database.windows.net"
+		},
+		"SQLDatabase_linkedservice_properties_typeProperties_database": {
+			"value": "Retail Data"
+		},
+		"SQLDatabase_linkedservice_properties_typeProperties_userName": {
+			"value": "kiran565"
+		},
+		"trigger1_properties_PL_SQL_DB_parameters_table_name": {
+			"value": "products"
+		}
+	}
+}
